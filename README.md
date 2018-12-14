@@ -1,7 +1,7 @@
 ## pupeteer automation on electron app
-
-Because of electron using chromium
-and puppeteer also using chromium It would be quite simple  to setup automation withe puppeteer on electron app
+A minimal Electron application withe puppeteer automation testing.
+Because of electron using chromium and puppeteer also using chromium
+It would be quite simple  to setup automation withe puppeteer on electron app.
 
 ## luanch the app
  to luanch the app in dev env:
