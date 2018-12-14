@@ -1,0 +1,26 @@
+{
+  "name": "electron-automation",
+  "version": "1.0.0",
+  "description": "A minimal Electron application withe puppeteer automation",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder",
+    "test":"node test"
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "puppeteer",
+    "automation",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Meni roytenburd",
+  "dependencies": {
+    "puppeteer": "^1.11.0",
+    "electron": "4.0.0-beta.8"
+  }
+}

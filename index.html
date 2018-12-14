@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+
+</head>
+<body>
+<input id="edit-title" onkeyup="changeTitle(this.value)">
+<script>
+    function changeTitle(value) {
+        document.getElementsByTagName('title')[0].innerHTML = value;
+    }
+</script>
+</body>
+</html>
