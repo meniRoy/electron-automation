@@ -19,4 +19,6 @@ const launch = async () => await puppeteer.launch(
 
     await page.type("#edit-title", someText);
     assert.equal(await page.title(), someText);
+
+    browser.close();
 })();
